@@ -16,7 +16,7 @@ Built as a replacement for regex-based pattern matching, which struggles with co
 
 Open in Google Colab (free T4 GPU, ~25 min to train):
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOURUSERNAME/headline-classifier/blob/main/headline_classifier.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CoolpantsMcBadass/headline-classifier/blob/main/headline_classifier.ipynb)
 
 > Runtime → Change runtime type → T4 GPU before running
 

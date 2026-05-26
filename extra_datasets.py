@@ -41,7 +41,7 @@ try:
     for item in scam_raw[first_key]:
         text = str(item.get('text', '')).strip()
         if text and len(text) <= 200:
-            rows.append({'text': text, 'label': int(item.get('label', 0))})
+            rows.append({'text': text, 'label': int(item.get('is_spam', 0))})
     df_scam = pd.DataFrame(rows)
     extra_sources.append(df_scam)
     print(f'\nScam/spam: {len(df_scam)} examples')
